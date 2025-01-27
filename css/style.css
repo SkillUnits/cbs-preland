@@ -14,7 +14,7 @@ body {
     line-height: 1.48;
     font-weight: 400;
 }
-ul {
+ul,ol {
     padding-left: 0;
 }
 ul li {
@@ -417,11 +417,11 @@ h1 {
     font-weight: 900;
     letter-spacing: 0;
 }
-.article ul {
+.article ul, .article ol {
     margin: 24px 0;
     padding-left: 40px;
 }
-.article ul li {
+.article ul li, .article ol li {
     list-style: inherit;
     margin: 10px 0;
 }
@@ -571,4 +571,27 @@ h1 {
 
 .nav-container-mobile {
     display: none;
+}
+
+.service-title-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.service-title-container:not(:first-of-type) {
+    margin-top: 35px;
+}
+.service-title-container img {
+    width: 72px;
+    margin-right: 10px;
+}
+.service-title-container a {
+    text-decoration: underline;
+    color: #0000EE;
+}
+.tel-number {
+    background-color: #0000EE;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 12px;
 }
