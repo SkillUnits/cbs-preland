@@ -46,7 +46,7 @@ h1 {
     grid-template-columns: repeat(3, 1fr);
     place-items: center;
     width: 100%;
-    margin: auto;
+    margin: 0 auto;
     max-width: 1320px;
 }
 .nav-container {
@@ -112,15 +112,26 @@ h1 {
     width: 16px;
     fill: currentColor;
 }
+.logo-container {
+    margin: 0 auto;
+}
 .logo-icon-link {
     color: inherit;
     display: flex;
     font-weight: inherit;
     fill: currentColor;
+    align-items: center;
+}
+.logo-text {
+    font-family: 'TT Norms Pro';
+    font-size: 24px;
+    font-weight: 600;
+    margin-left: 2px;
+    line-height: 0;
 }
 .logo-icon {
     height: 20px;
-    max-width: 170px;
+    max-width: 40px;
 }
 .search-container {
     display: flex;
@@ -222,7 +233,7 @@ h1 {
 }
 .article-header {
     max-width: 1320px;
-    min-height: 370px;
+    min-height: 200px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -499,6 +510,13 @@ h1 {
     font-style: italic;
     color: #7F7F7F;
 }
+.article-link {
+    color: #0000EE;
+    text-decoration: underline;
+}
+hr {
+    margin-top: 30px;
+}
 
 .footer {
     padding: 80px 20px 50px;
@@ -511,6 +529,11 @@ h1 {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+.footer .logo-icon-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .footer-logo-icon {
     width: 150px;
