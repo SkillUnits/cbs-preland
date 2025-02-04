@@ -1,0 +1,60 @@
+* {
+    font-family: "Open Sans", serif;
+}
+.privacy-policy-content {
+    max-width: 860px;
+    width: 90%;
+    padding-top: 40px;
+    margin: 0 auto;
+}
+.privacy-policy-content h1 {
+    font-size: 42px;
+}
+.privacy-policy-content h2 {
+    text-transform: uppercase;
+}
+.privacy-policy-content p {
+    font-size: 18px;
+}
+.privacy-policy-content em {
+    font-weight: 700;
+}
+.privacy-policy-content a {
+    text-decoration: underline;
+    color: #323232;
+}
+
+footer {
+    padding-top: 30px;
+}
+.footer-inner {
+    font-size: 14px;
+    color: #777777;
+    margin-bottom: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-inner .links {
+    max-width: 340px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding-bottom: 14px;
+}
+.footer-inner a {
+    color: #777777;
+    font-size: inherit;
+    text-decoration: underline;
+}
+
+.logo-container {
+    display: block;
+    width: fit-content;
+}
+.logo {
+    max-width: 200px;
+}
