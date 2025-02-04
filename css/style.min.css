@@ -119,7 +119,7 @@
 
 @media screen and (max-width: 767px) {
     body {
-        font-size: 1.19rem;
+        font-size: 1.1rem;
     }
     .nav-wrapper {
         margin: auto 0;
@@ -183,5 +183,43 @@
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis
+    }
+    .recommend-text {
+        font-size: 0.95rem;
+    }
+    .service-title-container h3 {
+        font-size: 1.1rem;
+    }
+    .service-title-container:not(:first-of-type) {
+        margin-top: 10px;
+    }
+
+    .buttons-container {
+        margin: 0 auto;
+    }
+
+    .rating-text {
+        font-size: 0.95rem;
+    }
+    .table-item p {
+        font-size: 0.95rem;
+    }
+    .table-item .table-caption {
+        font-size: 0.9rem;
+    }
+    .fomo-card-container p {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    .buttons-container .prebutton-text {
+        font-size: 0.9rem;
+        margin: 0;
+    }
+    .buttons-container {
+        max-width: 100%;
+    }
+    .buttons-container .tel-number {
+        max-width: 280px;
+        font-size: 0.9rem;
     }
 }
