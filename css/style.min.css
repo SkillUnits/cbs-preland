@@ -185,7 +185,13 @@
         text-overflow: ellipsis
     }
     .recommend-text {
-        font-size: 0.95rem;
+        font-size: 0.7rem;
+    }
+    .service-title-container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
     }
     .service-title-container h3 {
         font-size: 1.1rem;

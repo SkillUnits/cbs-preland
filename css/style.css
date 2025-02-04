@@ -715,3 +715,8 @@ hr {
     color: rgba(39, 52, 146, 1);
     text-decoration: underline;
 }
+.question-score {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
