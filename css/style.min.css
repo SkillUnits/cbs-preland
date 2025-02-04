@@ -194,7 +194,7 @@
         justify-content: space-between;
     }
     .service-title-container h3 {
-        font-size: 1.1rem;
+        font-size: 1.2rem;
     }
     .service-title-container:not(:first-of-type) {
         margin-top: 10px;

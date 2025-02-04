@@ -20,7 +20,7 @@
 		var newsbreak_cid = url.searchParams.get("newsbreak_cid");
 
 		mcc('init', { site: 749, serviceBaseUrl: '//www.marketcall.com' });
-		mcc('requestTrackingNumber', {campaign:"311725",selector:[{type:"dom",value:"a[href^='tel:']"}],subid:"{subid}",subid1:"{tc_id}",subid2:newsbreak_cid});
+		mcc('requestTrackingNumber', {campaign:"311725",selector:[{type:"dom",value:"a[href^='tel:']"}],mask:"",subid:"{subid}",subid1:"{tc_id}",subid2:newsbreak_cid});
 		</script>
 		<!-- Phone calls validation code -->
 		<!-- Install the code on all pages of your site -->
@@ -208,7 +208,7 @@
                         <p class="prebutton-text">
                             👤 10 agents are standing by
                         </p>
-                        <a style="display: none;" id="phone_number" href="tel:+1(888) 217-3304" class="tel-number"></a>
+                        <a id="phone_number" href="tel:+1(888) 217-3304" class="tel-number">Call Now for a Free Consultation</a>
 
                         <a href="#" onclick="return call()" class="tel-number">Call Now for a Free Consultation</a>
                         <p class="or-text">or</p>
