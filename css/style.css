@@ -613,9 +613,15 @@ hr {
 .recommend-text {
     color: #fff;
     font-weight: 700;
-    background-color: #e2bc37;
+    background-color: #273492;
     padding: 3px 15px;
     border-radius: 15px;
+}
+.rating-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .table-item {

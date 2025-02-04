@@ -20,7 +20,7 @@
 		var newsbreak_cid = url.searchParams.get("newsbreak_cid");
 
 		mcc('init', { site: 749, serviceBaseUrl: '//www.marketcall.com' });
-		mcc('requestTrackingNumber', {campaign:"311725",selector:[{type:"dom",value:"a[href^='tel:']"}],mask:"+x (xxx) xxx-xx-xx",subid:"{subid}",subid1:"{tc_id}",subid2:newsbreak_cid});
+		mcc('requestTrackingNumber', {campaign:"311725",selector:[{type:"dom",value:"a[href^='tel:']"}],subid:"{subid}",subid1:"{tc_id}",subid2:newsbreak_cid});
 		</script>
 		<!-- Phone calls validation code -->
 		<!-- Install the code on all pages of your site -->
@@ -483,7 +483,7 @@
 
                     <div class="service-title-container">
                         <h3>
-                            <a href="" onclick="window.open('tel:+1(888) 217-3304');"> Cura Credit</a>
+                            <a onclick="window.open('tel:+1(888) 217-3304');"> Cura Credit</a>
                         </h3>
                         <img src="images/Cura Credit.png" alt="">
                     </div>
