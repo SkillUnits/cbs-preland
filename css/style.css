@@ -233,7 +233,6 @@ h1 {
 }
 .article-header {
     max-width: 1320px;
-    min-height: 200px;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -279,8 +278,6 @@ h1 {
     border: 1px solid #F2F2F2;
 }
 .content-title {
-    padding: 0 40px 20px 0;
-    margin-bottom: 25px;
     font-family: "Publico Headline",serif;
     line-height: 1;
     font-weight: 900;

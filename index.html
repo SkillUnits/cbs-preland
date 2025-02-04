@@ -9,6 +9,26 @@
     <link rel="stylesheet" href="css/style.min.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link href = "assets/fonts/stylesheet.css" rel = "stylesheet" type = "text/css" />
+
+    <script>
+		(function (w,d,s,o,f,js,fjs) { w[o] = w[o] || function () { (w[o].q = w[o].q || []).push(arguments) }; js = d.createElement(s), fjs = d.getElementsByTagName(s)[0]; js.id = o; js.src = f; js.async = 1; fjs.parentNode.insertBefore(js, fjs);}(window, document, 'script', 'mcc', 'https://marketcall.com/js/mc-calltracking.js'));
+		
+		var url_string = window.location.href;
+		var url = new URL(url_string);
+		var newsbreak_cid = url.searchParams.get("newsbreak_cid");
+
+		mcc('init', { site: 749, serviceBaseUrl: '//www.marketcall.com' });
+		mcc('requestTrackingNumber', {campaign:"311725",selector:[{type:"dom",value:"a[href^='tel:']"}],mask:"+x (xxx) xxx-xx-xx",subid:"{subid}",subid1:"{tc_id}",subid2:newsbreak_cid});
+		</script>
+		<!-- Phone calls validation code -->
+		<!-- Install the code on all pages of your site -->
+		<script
+		id="__tc_script"
+		src="https://static.truecall.com/truecall.js"
+		data-campaign_uuid="06dqfudjo6fbl031kkou8z1762qzz1ds7hme"
+		data-skip_injection="true"
+		>
+	</script>
 </head>
 <body>
     <header class="site-header">
@@ -40,72 +60,17 @@
                     </li>
                 </ul>
             </div>
-            <!-- <div class="nav-container-mobile">
-                <a href="/" class="site-nav-anchor">
-                    <svg viewBox="0 0 32 32" class="site-nav-item-icon" aria-hidden="true">
-                        <use xlink:href="#icon-more">
-                            <g id="icon-more">
-                                <path d="M0 0h8v8H0V0zm0 12h8v8H0v-8zm0 12h8v8H0v-8zM12 0h8v8h-8V0zm0 12h8v8h-8v-8zm0 12h8v8h-8v-8zM24 0h8v8h-8V0zm0 12h8v8h-8v-8zm0 12h8v8h-8v-8z"></path>
-                            </g>
-                        </use>
-                    </svg>
-                </a>
-            </div> -->
             <div class="logo-container">
                 <a class="logo-icon-link" href="/">
                     <img class="logo-icon" src="images/logo.svg" alt="">
                     <p class="logo-text">USA NEWS</p>
                 </a>
             </div>
-            <!-- <div class="search-container">
-                <a class="search-icon-link" href="/">
-                    <svg viewBox="0 0 32 32" class="search-icon" aria-hidden="true">
-                        <use xlink:href="#icon-search">
-                            <g id="icon-search">
-                                <path fill-rule="evenodd" d="M14.484 26.967C7.589 26.967 2 21.378 2 14.484 2 7.589 7.59 2 14.484 2s12.483 5.59 12.483 12.484a12.44 12.44 0 0 1-3.136 8.275l5.261 5.261a1.684 1.684 0 1 1-2.38 2.381l-5.44-5.439a12.429 12.429 0 0 1-6.788 2.005zm0-3.367a9.116 9.116 0 1 0 0-18.233 9.116 9.116 0 0 0 0 18.233z"></path>
-                            </g>
-                        </use>
-                    </svg>
-                </a>
-            </div> -->
         </div>
     </header>
-    <!-- <header class="sub-header">
-        <div class="item-wrapper">
-            <nav class="sub-nav-container">
-                <ul class="sub-nav">
-                    <li class="sub-nav-item">
-                        <a class="sub-nav-item-nonbrand" href="/" >
-                            MoneyWatch
-                        </a>
-                    </li>
-                    <li class="sub-nav-item">
-                        <a class="sub-nav-item-title" href="/">
-                            Managing Your Money
-                        </a>
-                    </li>
-                    <li class="sub-nav-item">
-                        <a class="sub-nav-item-title" href="/">
-                            Your Taxes
-                        </a>
-                    </li>
-                    <li class="sub-nav-item">
-                        <a class="sub-nav-item-title" href="/">
-                            Retirement
-                        </a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header> -->
     <main>
         <div class="article-header-container">
             <div class="article-header">
-                <!-- <div class="article-header-content-top">
-                    <p>
-                        We may receive commissions from some links to products on this page. Promotions are subject to availability and retailer terms.
-                    </p>
-                </div> -->
                 <div class="article-header-label">
                     <a href="/" class="header-link">
                         MoneyWatch: Managing Your Money
@@ -114,57 +79,7 @@
                 <h1 class="content-title">
                     Top 5 services for your financial freedom
                 </h1>
-                <div class="content-meta-wrapper">
-                    <a href="/" class="content-topic-link">
-                        <img src="images/logo-square-32.svg" alt="" class="content-show-logo" width="60" height="60" loading="lazy">
-                    </a>
-                    <p class="content-meta-byline">
-                        By
-                        <a href="/" class="byline-author-link">Joshua Rodriguez</a>
-                    </p>
-                    <p class="content-meta-byline">
-                        Edited By
-                        <a href="/" class="byline-author-link">Matt Richardson</a>
-                    </p>
-                    <!-- <p class="content-meta-date">
-                        Updated on: Jan 24, 2025 / 2:17 PM EDT / CBS News
-                    </p> -->
-                    <ul class="sharebar">
-                        <li class="sharebar-button-container">
-                            <a href="/" class="sharebar-button">
-                                <svg viewBox="0 0 32 32" class="sharebar-icon" aria-hidden="true">
-                                    <use xlink:href="#icon-social-facebook">
-                                        <symbol id="icon-social-facebook" viewBox="0 0 32 32">
-                                            <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
-                                        </symbol>
-                                    </use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="sharebar-button-container">
-                            <a href="/" class="sharebar-button">
-                                <svg viewBox="0 0 32 32" class="sharebar__icon sharebar__icon--twitter" aria-hidden="true">
-                                    <use xlink:href="#icon-social-twitter">
-                                        <symbol id="icon-social-twitter" viewBox="0 0 32 32">
-                                            <path d="M18.979 13.55 30.635 0h-2.762L17.752 11.765 9.668 0H.344l12.225 17.79L.344 32h2.762l10.689-12.424L22.332 32h9.324L18.978 13.55zm-3.784 4.398-1.238-1.772L4.102 2.08h4.243l7.953 11.377 1.238 1.771 10.339 14.788h-4.243l-8.437-12.067z"></path>
-                                        </symbol>
-                                    </use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li class="sharebar-button-container">
-                            <a href="/" class="sharebar-button">
-                                <svg viewBox="0 0 32 32" class="sharebar__icon sharebar__icon--flipboard" aria-hidden="true">
-                                    <use xlink:href="#icon-social-flipboard">
-                                        <symbol id="icon-social-flipboard" viewBox="0 0 32 32">
-                                            <path d="M0 0v32h32V0H0zm25.6 12.8h-6.4v6.4h-6.4v6.4H6.4V6.4h19.2v6.4z"></path>
-                                        </symbol>
-                                    </use>
-                                </svg>
-                            </a>  
-                        </li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
         <div class="article">
@@ -185,7 +100,7 @@
                     <div class="service-title-container">
                         <img src="images/National Debt Relief.png" alt="">
                         <h3>
-                            1. <a href="/"> National Debt Relief</a>
+                            1. <a href="https://debtsreliefus.com/"> National Debt Relief Center</a>
                         </h3>
                     </div>
                     <p><strong>Rating: ★★★★★ (5/5)</strong></p>
@@ -203,13 +118,13 @@
                     <ol>
                         <li>Requires a minimum debt of $15,000.</li>
                     </ol>
-                    <a href="/" class="tel-number">Phone: 1-800-555-1234</a>
+                    <a href="https://debtsreliefus.com/" class="tel-number">Visit My Site</a>
                     <hr>
 
                     <div class="service-title-container">
                         <img src="images/Accredited Debt Relief.png" alt="">
                         <h3>
-                            2. <a href="/"> Accredited Debt Relief</a>
+                            2. <a href="https://skillunits.github.io/debt-inframe/"> Accredited Debt Relief</a>
                         </h3>
                     </div>
                     <p><strong>Rating: ★★★★★ (4.9/5)</strong></p>
@@ -227,13 +142,13 @@
                     <ol>
                         <li>May take up to 1 years to fully settle debts.</li>
                     </ol>
-                    <a href="/" class="tel-number">Phone: 1-800-555-6578</a>
+                    <a href="https://skillunits.github.io/debt-inframe/" class="tel-number">Visit My Site</a>
                     <hr>
 
                     <div class="service-title-container">
                         <img src="images/Pacific Debt Relief.png" alt="">
                         <h3>
-                            3. <a href="/"> Pacific Debt Relief</a>
+                            3. <a href="https://skillunits.github.io/trust-landing-senior/"> Pacific Debt Relief</a>
                         </h3>
                     </div>
                     <p><strong>Rating: ★★★★★ (4.8/5)</strong></p>
@@ -251,13 +166,13 @@
                     <ol>
                         <li>Limited options for rural residents.</li>
                     </ol>
-                    <a href="/" class="tel-number">Phone: 1-800-555-8922</a>
+                    <a href="https://skillunits.github.io/trust-landing-senior/" class="tel-number">Visit My Site</a>
                     <hr>
 
                     <div class="service-title-container">
                         <img src="images/Credit repair.png" alt="">
                         <h3>
-                            4. <a href="/"> Credit Repair</a>
+                            4. <a href="https://skillunits.github.io/trust-landing/"> Credit Repair</a>
                         </h3>
                     </div>
                     <p><strong>Rating: ★★★★★ (4.6/5)</strong></p>
@@ -275,13 +190,13 @@
                     <ol>
                         <li>Longer process compared to other services.</li>
                     </ol>
-                    <a href="/" class="tel-number">Phone: 1-800-555-3344</a>
+                    <a href="https://skillunits.github.io/trust-landing/" class="tel-number">Visit My Site</a>
                     <hr>
 
                     <div class="service-title-container">
                         <img src="images/Cura Credit.png" alt="">
                         <h3>
-                            5. <a href="/"> Cura Credit</a>
+                            5. <a href="tel:+1(888) 217-3304"> Cura Credit</a>
                         </h3>
                     </div>
                     <p><strong>Rating: ★★★★★ (4.5/5)</strong></p>
@@ -299,7 +214,7 @@
                     <ol>
                         <li>Limited support for customers with small debts.</li>
                     </ol>
-                    <a href="/" class="tel-number">Phone: 1-800-555-9999</a>
+                    <a href="tel:+1(888) 217-3304" class="tel-number">Phone: 1-800-555-9999</a>
 
                     <p style="margin-top: 35px;">
                         Debt can be a serious burden, but with the right approach and the help of proven services, it can be significantly reduced. Each of the companies presented here has unique solutions that help you find a way out of even the most difficult financial situations. Choose the service that best suits your needs and don't put off solving your debt issues until later.
@@ -310,7 +225,7 @@
                     <p>
                         <b>Apply now for debt settlement </b>
                     </p>
-                    <a class="article-link" href="/">National Debt Reliefs</a>
+                    <a class="article-link" href="https://debtsreliefus.com/">National Debt Relief Center</a>
 
                     <div class="content-author">
                         <a href="/" class="content-author-name">Joshua Rodriguez</a>
@@ -346,56 +261,10 @@
                 <a href="/">Privacy Policy</a>
             </li>
             <li>
-                <a href="/">Cookie Details</a>
-            </li>
-            <li>
                 <a href="/">Terms of Use</a>
-            </li>
-            <li>
-                <a href="/">About</a>
-            </li>
-            <li>
-                <a href="/">Advertise</a>
-            </li>
-            <li>
-                <a href="/">Closed Captioning</a>
-            </li>
-            <li>
-                <a href="/">USA News Store</a>
-            </li>
-            <li>
-                <a href="/">Site Map</a>
-            </li>
-            <li>
-                <a href="/">Contact Us</a>
-            </li>
-            <li>
-                <a href="/">Help</a>
             </li>
         </ul>
         <ul class="footer-social-icons">
-            <!-- <li class="footer-social-icon-item">
-                <a href="/" class="footer-social-link">
-                    <svg viewBox="0 0 32 32" class="footer-social-icon-svg" aria-hidden="true">
-                        <use xlink:href="#icon-social-facebook">
-                            <symbol id="icon-social-facebook" viewBox="0 0 32 32">
-                                <path d="M19 6h5v-6h-5c-3.86 0-7 3.14-7 7v3h-4v6h4v16h6v-16h5l1-6h-6v-3c0-0.542 0.458-1 1-1z"></path>
-                            </symbol>
-                        </use>
-                    </svg>
-                </a>
-            </li>
-            <li class="footer-social-icon-item">
-                <a href="/" class="footer-social-link">
-                    <svg viewBox="0 0 32 32" class="footer-social-icon-svg" aria-hidden="true">
-                        <use xlink:href="#icon-social-twitter">
-                            <symbol id="icon-social-twitter" viewBox="0 0 32 32">
-                                <path d="M18.979 13.55 30.635 0h-2.762L17.752 11.765 9.668 0H.344l12.225 17.79L.344 32h2.762l10.689-12.424L22.332 32h9.324L18.978 13.55zm-3.784 4.398-1.238-1.772L4.102 2.08h4.243l7.953 11.377 1.238 1.771 10.339 14.788h-4.243l-8.437-12.067z"></path>
-                            </symbol>
-                        </use>
-                    </svg>
-                </a>
-            </li> -->
             <li class="footer-social-icon-item">
                 <a href="/" class="footer-social-link">
                     <svg viewBox="0 0 32 32" class="footer-social-icon-svg" aria-hidden="true">
